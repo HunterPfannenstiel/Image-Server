@@ -1,4 +1,4 @@
-const port = 3000;
+const port = 443;
 import sharp from "sharp";
 import fetch from "node-fetch";
 import http from "http";
