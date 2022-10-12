@@ -1,6 +1,6 @@
 import sharp from "sharp";
 
-module.exports = async (req, res) => {
+export default module.exports = async (req, res) => {
   if (req.method === "GET") {
     let data;
     try {
