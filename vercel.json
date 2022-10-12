@@ -1,7 +1,7 @@
 {
     "name": "image-server",
     "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
+       { "src": "./api/image.js", "use": "@vercel/node" }
     ],
     "routes": [
        { "src": "/", "dest": "/api/image.js" },
