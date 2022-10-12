@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.2.10",
-    "sharp": "^0.31.1"
+    "sharp": "^0.28.3"
   },
-  "type":"module"
+  "type": "module"
 }

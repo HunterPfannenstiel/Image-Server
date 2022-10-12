@@ -41,6 +41,7 @@ async function handler(req, res) {
 
     res.writeHead(200, { "Content-Type": "image/avif" }); //Will mark the type of content
     res.end(image); //Will display the image
+    return;
   }
 }
 
